@@ -1,0 +1,64 @@
+body {
+	margin: 0;
+	background-image: url("vintage-concrete.png");
+}
+
+header {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background: white;
+	color: white;
+	padding: 35px 200px 35px 0;
+	border-bottom-style: solid;
+	border-width: medium;
+	border-color: #d7d7d7;
+}
+
+header h1 {
+	background-color: black;
+	margin-left: 25%;
+	display: inline;
+	padding: 35px;
+}
+
+nav ul {
+	float: right;
+	margin: 0;
+	padding: 15px 0 0 15px;
+	display: inline;
+}
+
+nav ul li {
+	background: white;
+	display: inline-block;
+	list-style-type: none;
+	padding: 5px 15px;
+	border-left: 1px solid #9999af;	
+}
+
+nav ul li:first-child {
+	border-left: none;
+}
+
+nav ul li a {
+	color: #9999af;
+}
+
+
+.aboutme {
+	float: left;
+	width: 40%;
+	background-color: black;
+	margin-left:15%;
+	color: red;
+}
+
+.connect {
+	float: left;
+	width: 200px;
+	background-color: pink;
+	margin-left: 15%;
+}
+
+.cleardiv {
+	clear: both;
+}
