@@ -1,7 +1,11 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-image: url("vintage-concrete.png");
+	background-image: url("../images/ep_naturalblack.png");
+	min-height: 100%;
+	position: relative;
+	padding-bottom: 20px;
+
 }
 
 #name {
@@ -10,12 +14,15 @@ body {
 	padding: 0;
 	height: 55px;
 	width: 100%;
+	opacity: .5;
 }
 
-#name p {
+#name h1 {
 	color: white;
 	font-size: 45px;
 	text-align: center;
+	margin: 0;
+	padding: 0;
 }
 
 #link {
@@ -40,6 +47,10 @@ body {
 	border-left: 1px solid #9999af;	
 }
 
+#link ul a:hover {
+	color: black;
+}
+
 #link ul li:first-child {
 	border-left: none;
 }
@@ -48,22 +59,43 @@ body {
 	color: white;
 }
 
-
-.aboutme {
-	float: left;
-	width: 40%;
-	background-color: black;
-	margin-left:15%;
-	color: red;
+#content {
+	max-width: 800px;
+	margin:0 auto;
 }
 
-.connect {
+#maincontent {
+	text-align: center;
+	float: left;
+	background-color: black;
+	color: red;
+	width: 500px;
+}
+
+#maincontent p {
+	border-top: solid;
+
+}
+
+#connect {
+	text-align: center;
+	background-color: #9a0002;
 	float: left;
 	width: 200px;
-	background-color: pink;
-	margin-left: 15%;
+	margin-left: 100px
 }
 
 .cleardiv {
 	clear: both;
+}
+
+#footer {
+	width: 100%;
+	background-color:#9a0002;
+	position: absolute;	
+	left: 0; 
+	right: 0;
+	bottom: 0;
+	height: 20px;
+
 }
