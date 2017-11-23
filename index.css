@@ -1,46 +1,51 @@
 body {
 	margin: 0;
+	padding: 0;
 	background-image: url("vintage-concrete.png");
 }
 
-header {
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	background: white;
-	color: white;
-	padding: 35px 200px 35px 0;
-	border-bottom-style: solid;
-	border-width: medium;
-	border-color: #d7d7d7;
-}
-
-header h1 {
-	background-color: black;
-	margin-left: 25%;
-	display: inline;
-	padding: 35px;
-}
-
-nav ul {
-	float: right;
+#name {
+	background-color: #6f0204;
 	margin: 0;
-	padding: 15px 0 0 15px;
+	padding: 0;
+	height: 55px;
+	width: 100%;
+}
+
+#name p {
+	color: white;
+	font-size: 45px;
+	text-align: center;
+}
+
+#link {
+	background-color: #9a0002;
+	width: 100%;
+	height: 30px;
+	color: white;
+	text-align: center;
+	font-size: 25px;
+}
+
+
+#link ul {
+	margin: 0;
 	display: inline;
 }
 
-nav ul li {
-	background: white;
+#link ul li {
+	padding-left: 10px;
 	display: inline-block;
 	list-style-type: none;
-	padding: 5px 15px;
 	border-left: 1px solid #9999af;	
 }
 
-nav ul li:first-child {
+#link ul li:first-child {
 	border-left: none;
 }
 
-nav ul li a {
-	color: #9999af;
+#link ul li a {
+	color: white;
 }
 
 
