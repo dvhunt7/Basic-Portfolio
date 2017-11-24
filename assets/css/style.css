@@ -1,10 +1,9 @@
 body {
 	margin: 0;
-	padding: 0;
+	padding-bottom: 44px;
 	background-image: url("../images/ep_naturalblack.png");
 	min-height: 100%;
 	position: relative;
-	padding-bottom: 20px;
 
 }
 
@@ -60,7 +59,7 @@ body {
 }
 
 #content {
-	max-width: 800px;
+	max-width: 900px;
 	margin:0 auto;
 }
 
@@ -70,6 +69,9 @@ body {
 	background-color: black;
 	color: red;
 	width: 500px;
+	border: solid 2px;
+	border-color: red;
+
 }
 
 #maincontent p {
@@ -82,20 +84,53 @@ body {
 	background-color: #9a0002;
 	float: left;
 	width: 200px;
-	margin-left: 100px
+	margin-left: 100px;
+	border: solid 2px;
+	border-color: red;
 }
 
 .cleardiv {
 	clear: both;
 }
 
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical; 
+ }
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
 #footer {
 	width: 100%;
+	text-align: center;
 	background-color:#9a0002;
-	position: absolute;	
-	left: 0; 
-	right: 0;
+	position: fixed;	
 	bottom: 0;
-	height: 20px;
+	left: 0; 
+	height: 44px;
 
 }
