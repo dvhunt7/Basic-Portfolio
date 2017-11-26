@@ -79,6 +79,11 @@ body {
 
 }
 
+#maincontent img {
+	float: left;
+	padding: 20px;
+}
+
 #connect {
 	text-align: center;
 	background-color: #9a0002;
