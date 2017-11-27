@@ -63,11 +63,15 @@ body {
 	margin:0 auto;
 }
 
+h1 {
+	padding: 0;
+}
+
 #maincontent {
 	text-align: center;
 	float: left;
-	background-color: black;
-	color: red;
+	background-color: gray;
+	color: black;
 	width: 500px;
 	border: solid 2px;
 	border-color: red;
@@ -76,6 +80,7 @@ body {
 
 #maincontent p {
 	border-top: solid;
+	padding: 0;
 
 }
 
