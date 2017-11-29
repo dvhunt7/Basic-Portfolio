@@ -67,6 +67,7 @@ body {
 
 h1 {
 	padding: 0;
+	margin: 0;
 }
 
 #maincontent {
@@ -85,13 +86,12 @@ h1 {
 
 #maincontent p {
 	border-top: solid;
-	padding: 0;
-
+	padding: 15px 0 0 0;
 }
 
 #maincontent img {
 	float: left;
-	padding: 20px;
+	padding: 50px 10px 20px 10px;
 }
 
 #connect {
